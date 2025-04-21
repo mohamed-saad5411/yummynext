@@ -1,0 +1,34 @@
+.layer {
+    /* background-color: rgb(128, 23, 23); */
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 193, 7);
+    transition: all 0.7s;
+    overflow: hidden;
+}
+
+.meals:hover .layer {
+    top: 0%;
+}
+
+.meals {
+    overflow: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.lead{
+    font-size: 1rem;
+    color: rgb(78, 78, 78);
+    font-weight: 400;
+}
