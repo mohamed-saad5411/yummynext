@@ -31,7 +31,7 @@ export default function home() {
         <div className="row justify-content-center gy-4 my-5 py-5">
           {allFoods.map((meal) =>
             <div className="col-md-3" key={meal.idMeal}>
-              <Link href={`/details/${meal.idMeal}`}>
+              <Link href={`/mealdetails/${meal.idMeal}`}>
                 <div className='pointer meals position-relative rounded-3'>
                   <img src={meal.strMealThumb} className='position-relative rounded-3 w-100' alt="" />
                   <div className="layer rounded-3">

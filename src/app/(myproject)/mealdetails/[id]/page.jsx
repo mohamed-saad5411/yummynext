@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
-export default function details() {
+export default function mealdetails() {
     const [specialMeal, setspecialMeal] = useState([])
     const [isLoading, setisLoading] = useState(false)
     let params = useParams()
